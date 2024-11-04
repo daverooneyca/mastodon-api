@@ -1,3 +1,6 @@
+AllCops:
+  NewCops: enable
+
 Layout/AccessModifierIndentation:
   EnforcedStyle: indent
 
@@ -35,9 +38,6 @@ Style/DoubleNegation:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
-
-Style/TrailingCommaInLiteral:
-  EnforcedStyleForMultiline: 'comma'
 
 Style/RegexpLiteral:
   Enabled: false
