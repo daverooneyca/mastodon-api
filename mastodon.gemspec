@@ -5,9 +5,9 @@ require 'mastodon/version'
 Gem::Specification.new do |spec|
   spec.name          = 'mastodon-api'
   spec.description   = 'A ruby interface to the Mastodon API'
-  spec.homepage      = 'https://github.com/tootsuite/mastodon-api'
-  spec.email         = 'eugen@zeonfederated.com'
-  spec.authors       = ['Eugen Rochko']
+  spec.homepage      = 'https://github.com/daverooneyca/mastodon-api'
+  spec.email         = 'daverooneyca@gmail.com'
+  spec.authors       = ['Eugen Rochko', 'Dave Rooney']
   spec.summary       = spec.description
   spec.licenses      = %w(MIT)
   spec.files         = %w(mastodon.gemspec) + Dir['lib/**/*.rb']
